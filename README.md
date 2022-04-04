@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# CSSA Munich New Website 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Design under: [Figma](https://www.figma.com/proto/GtExRGP7P6uRJmNlYEhTPg/%E5%AD%A6%E8%81%94%E5%AE%98%E7%BD%91?node-id=103%3A120)
 
-## Available Scripts
+## Developer Scripts
 
 In the project directory, you can run:
 
