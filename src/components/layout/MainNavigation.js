@@ -6,9 +6,9 @@ import { Navbar, Container, Nav} from "react-bootstrap";
 const MainNavigation = () => {
 	return (
 		<header>
-			<Navbar bg="light">
+			<Navbar bg="light" expand="lg">
 				<Container>
-					<Navbar.Brand href="/" className="mx-auto">
+					<Navbar.Brand href="/">
 						<img
 							src="/logo192.jpg"
 							className="profile-header"
