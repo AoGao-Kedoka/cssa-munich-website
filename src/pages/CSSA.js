@@ -1,5 +1,5 @@
 const CSSAPage = () => {
-	return <p>CSSA page</p>;
+	return <p align="center">CSSA page</p>;
 }
 
 export default CSSAPage;

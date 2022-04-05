@@ -1,5 +1,5 @@
 const AcademicForumPage = () => {
-	return <p>Academic Forum Page</p>;
+	return <p align="center">Academic Forum Page</p>;
 }
 
 export default AcademicForumPage

@@ -1,5 +1,5 @@
 const CareerAdvocacyPage = () => {
-	return <p>Career advocacy page</p>;
+	return <p align="center">Career advocacy page</p>;
 }
 
 export default CareerAdvocacyPage;

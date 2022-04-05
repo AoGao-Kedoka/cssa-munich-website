@@ -1,5 +1,5 @@
 function StudentServicesPage() {
-	return <p>Student services page</p>
+	return <p align="center">Student services page</p>
 }
 
 export default StudentServicesPage;
