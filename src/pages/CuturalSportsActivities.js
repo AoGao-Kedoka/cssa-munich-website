@@ -1,5 +1,5 @@
 const CulturalSportsActivities = () => {
-	return <p>Cultural and sports activities</p>;
+	return <p align="center">Cultural and sports activities</p>;
 }
 
 export default CulturalSportsActivities;

@@ -1,5 +1,5 @@
 const MainPage = () => {
-	return <p>Main page</p>;
+	return <p align="center">Main page</p>;
 }
 
 export default MainPage;
