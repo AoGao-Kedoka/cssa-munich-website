@@ -6,6 +6,7 @@ import { Container } from "react-bootstrap";
 import CardElement from "./CardElement";
 
 const MainPage = () => {
+    const content ="职业宣讲擦客家话反倒是丽江阿大葱is案例库存吉林省考定价策略考试的会计师的好成绩实力坑爹从克里斯案件受刺激克里斯丁" 
 	return (
         <div>
             <div>
@@ -23,7 +24,7 @@ const MainPage = () => {
                 />
             </div>
             <Container>
-                <CardElement title="职业宣讲"/>
+                <CardElement logo="./images/职业宣讲logo.png" title="职业宣讲" text= { content }/>
             </Container>
         </div>
     )
