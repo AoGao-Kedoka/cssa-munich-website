@@ -2,7 +2,7 @@
 import './App.css';
 
 // pages
-import MainPage from "./pages/Main";
+import MainPage from "./pages/MainPage";
 import CareerAdvocacyPage from "./pages/CareerAdvocacy";
 import AcademicForumPage from "./pages/AcademicForum";
 import CulturalSportsActivities from "./pages/CuturalSportsActivities";
