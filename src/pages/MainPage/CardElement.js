@@ -13,7 +13,7 @@ const CardElement = (props) => {
 
 	return (
 		<div>
-			<Card className="border-0 card_border" style={{"border-radius": 40}} onClick={routeChange}>
+			<Card className="mx-auto border-0 card_border" style={{"border-radius": 40}} onClick={routeChange}>
 				<Card.Img style={{ width: "100px" }} className="mx-auto" variant="top" src={props.logo} />
 				<Card.Body>
 					<div className="text-center">
