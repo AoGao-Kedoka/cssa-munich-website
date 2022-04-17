@@ -1,11 +1,20 @@
-import "./index.css"
+import "./CardElement.css"
 
 import { Card } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
+
 const CardElement = (props) => {
+
+	let navigate = useNavigate();
+	const routeChange = () => {
+		let path = props.link;
+		navigate(path);
+	};
+
 	return (
 		<div>
-			<Card className="card_border border-0">
-				<Card.Img style={{width:"100px"}} className="mx-auto" variant="top" src={props.logo} />
+			<Card className="border-0 card_border" style={{"border-radius": 40}} onClick={routeChange}>
+				<Card.Img style={{ width: "100px" }} className="mx-auto" variant="top" src={props.logo} />
 				<Card.Body>
 					<div className="text-center">
 						<Card.Title className="card_title">{props.title}</Card.Title>
