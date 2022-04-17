@@ -46,7 +46,7 @@ const MainPage = () => {
 				</Container>
 			</div>
 		</div>
-	)
+	);
 }
 
 export default MainPage;
