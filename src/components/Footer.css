@@ -1,0 +1,29 @@
+.footer_border {
+	background: #F5F5F7;
+	height: 200px;
+}
+
+.rights_cssa {
+	display:flex;
+	justify-content: center;
+	bottom: 0px;
+
+	font-family: 'STHeiti';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 15px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.partner {
+	writing-mode: vertical-lr;
+	font-family: 'STHeiti';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 30px;
+	padding-top: 44px;	
+
+	color: rgba(0, 0, 0, 0.4);
+}

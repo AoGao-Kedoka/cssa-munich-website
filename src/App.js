@@ -10,13 +10,14 @@ import StudentServicesPage from "./pages/StudentServices";
 import CSSAPage from "./pages/CSSA";
 import AboutUsPage from "./pages/AboutUs";
 import MainNavigation from './components/layout/MainNavigation';
+import Footer from './components/Footer';
 
 // dependencies
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <div className="main">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainNavigation />}>
@@ -30,6 +31,7 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }
