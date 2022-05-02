@@ -1,17 +1,26 @@
 # CSSA Munich New Website 
 
-Design under: [Figma](https://www.figma.com/proto/GtExRGP7P6uRJmNlYEhTPg/%E5%AD%A6%E8%81%94%E5%AE%98%E7%BD%91?node-id=103%3A120)
+Design under: [Figma](https://www.figma.com/proto/GtExRGP7P6uRJmNlYEhTPg/%E5%AD%A6%E8%81%94%E5%AE%98%E7%BD%91?node-id=103%3A120)  
+This repo houses the assets used to build the CSSA (Chinese Students and Scholars Association) Munich Website, will be later available at www.cssa-munich.de
 
-## First Hands-On the Project
+## Tools 
+The website is built and developed using ReactJS and Strapi as CMS, you need to have nodejs installed
 
-### `npm install`
-Install the needed libraries
+## Run the website locally
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
+### Step 1: Clone project
+```
+git clone https://github.com/AoGao-Kedoka/cssa-munich-website.git
+cd cssa-munich-website
+```
+### Step 2: Install dependencies
+```
+npm install
+```
+### Step3_ Run te website in development mode
+```
+npm start
+```
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
