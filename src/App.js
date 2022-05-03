@@ -11,6 +11,7 @@ import CSSAPage from "./pages/CSSA";
 import AboutUsPage from "./pages/AboutUs";
 import MainNavigation from './components/layout/MainNavigation';
 import Footer from './components/Footer';
+import Pinned from './components/Pinned';
 
 // dependencies
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -30,6 +31,7 @@ function App() {
             <Route path="about_us" element={<AboutUsPage />}></Route>
           </Route>
         </Routes>
+        <Pinned />
       </BrowserRouter>
       <Footer />
     </div>
