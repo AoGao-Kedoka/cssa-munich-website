@@ -1,7 +1,11 @@
 import Pinned from "../components/Pinned";
 
 const CSSAPage = () => {
-	return <><p align="center">CSSA page</p><Pinned></Pinned></>;
+	return (
+    <dir>
+      <Pinned />
+    </dir>
+  );
 }
 
 export default CSSAPage;
