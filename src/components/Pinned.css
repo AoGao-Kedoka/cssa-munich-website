@@ -1,43 +1,16 @@
-.bigCard1 {
-  position: absolute;
-  width: 850px;
-  height: 400px;
-  left: 295px;
-  top: 163px;
-
-  background: linear-gradient(
-    178.89deg,
-    rgba(0, 0, 0, 0) 0.9%,
-    rgba(0, 0, 0, 0.44) 99.11%
-  );
-}
-
 #bigCardImg {
   border-radius: 40px;
 }
 
 #bigCardTitle {
-  position: absolute;
-  width: 524px;
-  height: 133px;
-  left: 20px;
-  top: 350px;
-
   font-family: "STHeiti";
   font-style: normal;
   font-weight: 400;
-  font-size: 45px;
   line-height: 45px;
   color: #ffffff;
 }
 
 #bigCardText {
-  position: absolute;
-  width: 524px;
-  height: 133px;
-  left: 20px;
-  top: 450px;
-
   font-family: "STHeiti";
   font-style: normal;
   font-weight: 400;
@@ -46,24 +19,8 @@
   color: #ffffff;
 }
 
-#leftCard {
-  position: absolute;
-  width: 850px;
-  height: 229.5px;
-  left: 295px;
-  top: 730px;
-}
-
 #leftCardImg {
   border-radius: 40px 40px 0px 0px;
-}
-
-#rightCard {
-  position: absolute;
-  width: 404.6px;
-  height: 229.5px;
-  left: 760px;
-  top: 730px;
 }
 
 #rightCardImg {
