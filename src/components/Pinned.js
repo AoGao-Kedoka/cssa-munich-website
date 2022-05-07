@@ -1,7 +1,7 @@
 import "./Pinned.css";
 import ski from "../resources/images/ski.png";
 import Card from "react-bootstrap/Card";
-import {Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 const Pinned = () => {
   return (
@@ -13,14 +13,7 @@ const Pinned = () => {
       <Row>
         <Col class="col-12">
           {/*The following card is the big card displayed on top. */}
-          <Card
-            style={{
-              overflow: "hidden",
-              borderRadius: "40px",
-              marginBottom: 20,
-            }}
-          >
-            {/* <Card.Body></Card.Body> */}
+          <Card id="bigCard">
             <Card.Img id="bigCardImg" variant="top" src={ski} />
             <Card.ImgOverlay classname="d-flex align-items-end">
               <Card.Title
@@ -51,7 +44,7 @@ const Pinned = () => {
         {/*The following is a cardgroup which contains two cards */}
         <Col classname="col-6-md">
           <Card id="leftCard" style={{ borderRadius: "40px" }}>
-            <Card.Img id="leftCardImg" variant="top" src={ski} />
+            <Card.Img className="smallCardImg" variant="top" src={ski} />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text id="leftBoxText">This is text for leftBox</Card.Text>
@@ -60,7 +53,7 @@ const Pinned = () => {
         </Col>
         <Col classname="col-6-md">
           <Card id="rightCard" style={{ borderRadius: "40px" }}>
-            <Card.Img id="rightCardImg" variant="top" src={ski} />
+            <Card.Img className="smallCardImg" variant="top" src={ski} />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text id="rightBoxText">This is text for rightBox</Card.Text>
