@@ -25,3 +25,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+## Chat
+if you want to communicate with us, welcome to join our discord group:  
+https://discord.gg/ktY7kcNR5U
