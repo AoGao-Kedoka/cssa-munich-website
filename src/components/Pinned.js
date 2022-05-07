@@ -17,22 +17,32 @@ const Pinned = () => {
             style={{
               overflow: "hidden",
               borderRadius: "40px",
-              marginBottom:20
+              marginBottom: 20,
             }}
           >
             {/* <Card.Body></Card.Body> */}
             <Card.Img id="bigCardImg" variant="top" src={ski} />
             <Card.ImgOverlay classname="d-flex align-items-end">
-              <Card.Title id="bigCardTitle" style={
-                {
-                  position:"relative",
-                  top:400,
-                  left:0
-                }
-              }>
+              <Card.Title
+                id="bigCardTitle"
+                style={{
+                  position: "absolute",
+                  bottom: 50,
+                  left: 10,
+                }}
+              >
                 2022慕尼黑学联滑雪活动圆满结束
               </Card.Title>
-              <Card.Text id="bigCardText">31.Mar.2022</Card.Text>
+              <Card.Text
+                id="bigCardText"
+                style={{
+                  position: "absolute",
+                  bottom: 0,
+                  left: 10,
+                }}
+              >
+                31.Mar.2022
+              </Card.Text>
             </Card.ImgOverlay>
           </Card>
         </Col>
