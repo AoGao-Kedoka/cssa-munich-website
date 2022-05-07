@@ -1,10 +1,16 @@
+#bigCard {
+  overflow: hidden;
+  border-radius: 40px;
+  margin-bottom: 20px;
+}
+
 #bigCardImg {
   border-radius: 40px;
 }
 
 #bigCardTitle {
   letter-spacing: 0em;
-  text-align: left;
+  text-align: left, bottom;
   width: 400px;
   font-family: "STHeiti";
   font-style: normal;
@@ -17,7 +23,7 @@
 #bigCardText {
   line-height: 95px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: left, bottom;
   width: 270px;
   font-family: "STHeiti";
   font-style: normal;
@@ -26,10 +32,6 @@
   color: #ffffff;
 }
 
-#leftCardImg {
-  border-radius: 40px 40px 0px 0px;
-}
-
-#rightCardImg {
+.smallCardImg {
   border-radius: 40px 40px 0px 0px;
 }
