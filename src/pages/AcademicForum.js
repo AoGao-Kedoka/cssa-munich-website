@@ -1,5 +1,11 @@
+import Pinned from "../components/Pinned";
+
 const AcademicForumPage = () => {
-	return <p align="center">Academic Forum Page</p>;
+	return (
+    <dir>
+      <Pinned />
+    </dir>
+  );
 }
 
 export default AcademicForumPage

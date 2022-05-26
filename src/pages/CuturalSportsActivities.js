@@ -1,5 +1,11 @@
+import Pinned from "../components/Pinned";
+
 const CulturalSportsActivities = () => {
-	return <p align="center">Cultural and sports activities</p>;
+	return (
+    <dir>
+      <Pinned />
+    </dir>
+  );
 }
 
 export default CulturalSportsActivities;

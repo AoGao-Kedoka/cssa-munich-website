@@ -1,5 +1,11 @@
+import Pinned from "../components/Pinned";
+
 function StudentServicesPage() {
-	return <p align="center">Student services page</p>
+  return (
+    <dir>
+      <Pinned />
+    </dir>
+  );
 }
 
 export default StudentServicesPage;
