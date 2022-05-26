@@ -11,7 +11,7 @@ const Events = (props) => {
 		<dir style={{ paddingTop: "100px" }}>
 			{data.data.map(cssaEvents => (
 				<div key={cssaEvents.id} className="mx-auto" style={{width:"70%"}}>
-					<div className="card">
+					<div className="card border-0 event-card">
 						<div className="card-horizontal">
 							<div className="img-square-wrapper">
 								<img 
