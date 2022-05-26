@@ -1,6 +1,5 @@
-.card {
-	border: 0;
-	padding-top: 50px;
+.event-card {
+	padding-top:50px;
 }
 
 .card-horizontal {
