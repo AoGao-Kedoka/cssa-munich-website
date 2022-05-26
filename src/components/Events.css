@@ -1,6 +1,6 @@
 .event-card {
 	flex-direction: row;
-	width: 930px;
+	width: 50%;
 	height: 250px;
 	border: 0;
 }
