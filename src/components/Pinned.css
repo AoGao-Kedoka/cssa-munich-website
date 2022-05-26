@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-.box1{
- background-color: aliceblue;
 
-}
-
-#row2box1{
-  background-color: azure;
-}
-=======
 #bigCard {
   overflow: hidden;
   border-radius: 40px;
@@ -45,4 +36,4 @@
 .smallCardImg {
   border-radius: 40px 40px 0px 0px;
 }
->>>>>>> 5841bde37e7618101ff999be0255750a3380b086
+
