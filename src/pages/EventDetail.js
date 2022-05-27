@@ -12,7 +12,7 @@ const EventDetails = () => {
 	if (error) return <p>Error!</p>;
 
 	return (
-		<div>
+		<div style={{paddingTop:"50px"}}>
 			<h1 className="text-center">{data.data.attributes.Title}</h1>
 			<p className="text-center">{data.data.attributes.Date}</p>
 			<div className="event-detail">
