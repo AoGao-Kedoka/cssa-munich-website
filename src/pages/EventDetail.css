@@ -1,0 +1,10 @@
+.event-detail {
+	width: 50%;
+	margin-left:auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.event-detail img {
+	width: 70%
+}

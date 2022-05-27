@@ -24,10 +24,10 @@ const Events = (props) => {
 								/>
 							</div>
 								<div className="card-body">
-									<Link to={`details/${cssaEvents.id}`} className="link-event">
+									<a href={`${cssaEvents.id}`} className="link-event">
 										<h3 className="card-title">{cssaEvents.attributes.Title}</h3>
 										<p className="card-text">{cssaEvents.attributes.Date}</p>
-									</Link>
+									</a>
 								</div>
 						</div>
 					</div>

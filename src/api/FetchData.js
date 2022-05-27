@@ -9,7 +9,9 @@ const useFetch = (rootUrl, type) => {
 		const fetchData = async () => {
 			setLoading(true);
 			try {
-				const res = await fetch(rootUrl + "/api/events?filters[EventType][$eq]="+ type + '&populate=MainImage');
+				var res = await fetch(rootUrl + "/api/events?filters[EventType][$eq]="+ type + '&populate=MainImage');
+				if (type === "")
+					res = await fetch(rootUrl);
 				const json = await res.json();
 				setData(json);
 			} catch (error) {
