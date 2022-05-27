@@ -1,5 +1,6 @@
 import "./Events.css"
 import useFetch from "../api/FetchData";
+import {Link} from 'react-router-dom';
 
 const Events = (props) => {
 	const rootUrl = "http://cssa-munich.de:1337";
@@ -10,7 +11,7 @@ const Events = (props) => {
 	return (
 		<dir style={{ paddingTop: "100px" }}>
 			{data.data.map(cssaEvents => (
-				<div key={cssaEvents.id} className="mx-auto" style={{width:"70%"}}>
+				<div key={cssaEvents.id} className="mx-auto" style={{width:"50%"}}>
 					<div className="card border-0 event-card">
 						<div className="card-horizontal">
 							<div className="img-square-wrapper">
@@ -22,10 +23,12 @@ const Events = (props) => {
 									style={{borderRadius:40}}
 								/>
 							</div>
-							<div className="card-body">
-								<h4 className="card-title">{cssaEvents.attributes.Title}</h4>
-								<p className="card-text">{cssaEvents.attributes.Date}</p>
-							</div>
+								<div className="card-body">
+									<Link to={`details/${cssaEvents.id}`} className="link-event">
+										<h3 className="card-title">{cssaEvents.attributes.Title}</h3>
+										<p className="card-text">{cssaEvents.attributes.Date}</p>
+									</Link>
+								</div>
 						</div>
 					</div>
 
