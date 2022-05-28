@@ -20,3 +20,11 @@ div.grey {
     text-align: center;
     color: rgba(0, 0, 0, 0.7);
 }
+
+a {
+    color: rgba(0, 0, 0, 0.5) !important;
+    text-decoration: none !important;
+    text-align: left;
+    font-weight: 500;
+    font-size: 13px;
+}
