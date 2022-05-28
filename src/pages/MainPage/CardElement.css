@@ -6,7 +6,6 @@
 }
 
 .card_title {
-	font-family: 'Yuanti SC';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 25px;
@@ -17,7 +16,6 @@
 }
 
 .card_text {
-	font-family: Yuanti SC;
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 21px;

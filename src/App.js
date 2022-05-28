@@ -15,6 +15,7 @@ import Pinned from './components/Pinned';
 
 // dependencies
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import EventDetails from './pages/EventDetail';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route path="student" element={<StudentServicesPage />}></Route>
             <Route path="cssa" element={<CSSAPage />}></Route>
             <Route path="about_us" element={<AboutUsPage />}></Route>
+            <Route path=":id" element={<EventDetails/>}></Route>
           </Route>
         </Routes>
         <Pinned />

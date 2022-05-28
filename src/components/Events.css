@@ -1,0 +1,13 @@
+.event-card {
+	padding-top:50px;
+}
+
+.card-horizontal {
+	display: flex;
+	flex: 1 1 auto;
+}
+
+.link-event {
+    text-decoration: none;	
+	color:black;
+}
