@@ -4,8 +4,8 @@ import Events from "../components/Events";
 const CulturalSportsActivities = () => {
 	return (
     <dir>
-      <Pinned />
-      <Events type="CulturalSportsActivities"/>
+      <Pinned type="CulturalSportsActivities" />
+      <Events type="CulturalSportsActivities" />
     </dir>
   );
 }

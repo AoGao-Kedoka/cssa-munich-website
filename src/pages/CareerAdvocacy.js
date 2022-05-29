@@ -4,7 +4,7 @@ import Events from "../components/Events";
 const CareerAdvocacyPage = () => {
   return (
     <dir>
-      <Pinned />
+      <Pinned type="CareerAdvocacy" />
       <Events type="CareerAdvocacy" />
     </dir>
   );

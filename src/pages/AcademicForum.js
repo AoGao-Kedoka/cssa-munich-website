@@ -4,7 +4,7 @@ import Events from "../components/Events";
 const AcademicForumPage = () => {
 	return (
     <dir>
-      <Pinned />
+      <Pinned type="AcademicForum" />
       <Events type="AcademicForum" />
     </dir>
   );

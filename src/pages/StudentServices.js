@@ -4,8 +4,8 @@ import Events from "../components/Events";
 function StudentServicesPage() {
   return (
     <dir>
-      <Pinned />
-      <Events type="StudentService"/>
+      <Pinned type="StudentService" />
+      <Events type="StudentService" />
     </dir>
   );
 }

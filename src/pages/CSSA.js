@@ -4,8 +4,8 @@ import Events from "../components/Events";
 const CSSAPage = () => {
 	return (
     <dir>
-      <Pinned />
-      <Events type="CSSA"/>
+      <Pinned type="CSSA" />
+      <Events type="CSSA" />
     </dir>
   );
 }
