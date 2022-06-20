@@ -1,4 +1,6 @@
 # CSSA Munich New Website 
+![640](https://user-images.githubusercontent.com/58142398/174555769-13abefc8-4bad-4c97-baf5-b1818e07074c.png)
+
 
 Design under: [Figma](https://www.figma.com/proto/GtExRGP7P6uRJmNlYEhTPg/%E5%AD%A6%E8%81%94%E5%AE%98%E7%BD%91?node-id=103%3A120)  
 This repo houses the assets used to build the CSSA (Chinese Students and Scholars Association) Munich Website, will be later available at www.cssa-munich.de
