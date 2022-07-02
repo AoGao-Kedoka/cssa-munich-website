@@ -1,5 +1,4 @@
 import "./Pinned.css";
-import ski from "../resources/images/ski.png";
 import Card from "react-bootstrap/Card";
 import {Col, Container, Row} from "react-bootstrap";
 
@@ -15,7 +14,7 @@ const Pinned = (props) => {
                     {/*The following card is the big card displayed on top. */}
                     <Card id="bigCard">
                         <Card.Img id="bigCardImg" variant="top" src={props.bigCardImage}/>
-                        <Card.ImgOverlay >
+                        <Card.ImgOverlay>
                             <Card.Title
                                 id="bigCardTitle"
                                 style={{
@@ -40,23 +39,48 @@ const Pinned = (props) => {
                     </Card>
                 </Col>
             </Row>
-            <Row>
+            <Row style={{paddingTop: "30px"}}>
                 {/*The following is a cardgroup which contains two cards */}
                 <Col classname="col-6-md">
-                    <Card id="leftCard" style={{borderRadius: "40px"}}>
-                        <Card.Img className="smallCardImg" variant="top" style={{objectFit:"cover"}} src={props.leftCardImage}/>
+                    <Card id="leftCard1" style={{borderRadius: "40px"}}>
+                        <Card.Img className="smallCardImg" variant="top" style={{objectFit: "cover"}}
+                                  src={props.leftCardImage1}/>
                         <Card.Body>
-                            <Card.Title>{props.leftCardTitle}</Card.Title>
-                            <Card.Text id="leftBoxText">{props.leftCardText}</Card.Text>
+                            <Card.Title>{props.leftCardTitle1}</Card.Title>
+                            <Card.Text id="leftBoxText">{props.leftCardDate1}</Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col classname="col-6-md">
-                    <Card id="rightCard" style={{borderRadius: "40px"}}>
-                        <Card.Img className="smallCardImg" variant="top" style={{objectFit:"cover"}}src={props.rightCardImage}/>
+                    <Card id="rightCard1" style={{borderRadius: "40px"}}>
+                        <Card.Img className="smallCardImg" variant="top"
+                                  src={props.rightCardImage1}/>
                         <Card.Body>
-                            <Card.Title>{props.rightCardImage}</Card.Title>
-                            <Card.Text id="rightBoxText">{props.rightCardText}</Card.Text>
+                            <Card.Title>{props.rightCardTitle1}</Card.Title>
+                            <Card.Text id="rightBoxText">{props.rightCardDate1}</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+            <Row style={{paddingTop: "50px"}}>
+                {/*The following is a cardgroup which contains two cards */}
+                <Col classname="col-6-md">
+                    <Card id="leftCard2" style={{borderRadius: "40px"}}>
+                        <Card.Img className="smallCardImg" variant="top" style={{objectFit: "cover"}}
+                                  src={props.leftCardImage2}/>
+                        <Card.Body>
+                            <Card.Title>{props.leftCardTitle2}</Card.Title>
+                            <Card.Text id="leftBoxText">{props.leftCardDate2}</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col classname="col-6-md">
+                    <Card id="rightCard2" style={{borderRadius: "40px"}}>
+                        <Card.Img className="smallCardImg" variant="top" style={{objectFit: "cover"}}
+                                  src={props.rightCardImage2}/>
+                        <Card.Body>
+                            <Card.Title>{props.rightCardTitle2}</Card.Title>
+                            <Card.Text id="rightBoxText">{props.rightCardDate2}</Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
