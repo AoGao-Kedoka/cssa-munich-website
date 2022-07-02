@@ -7,7 +7,6 @@ const Events = (props) => {
 	const { loading, error, data } = useFetch(rootUrl, props.type);
 	if (loading) return <p>Loading...</p>;
 	if (error) return <p>Error!</p>;
-
 	return (
 		<dir style={{ paddingTop: "100px" }}>
 			{data.data.map(cssaEvents => (
