@@ -16,7 +16,6 @@ const CulturalSportsActivities = () => {
                 rightCardImage1={rightCardImage1}
                 leftCardTitle2="慕尼黑学联“正青春”篮球友谊赛圆满结束" leftCardDate2="2022-04-08" leftCardImage2={leftCardImage2}
                 rightCardTitle2=" 慕尼黑学联滑雪活动圆满结束" rightCardDate2="2022-03-31" rightCardImage2={rightCardImage2}/>
-            />
             <Events type="CulturalSportsActivities"/>
         </dir>
     );

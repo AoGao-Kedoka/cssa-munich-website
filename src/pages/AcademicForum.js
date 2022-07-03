@@ -18,7 +18,6 @@ const AcademicForumPage = () => {
                 leftCardTitle2="想了解关于Title的故事吗？一起来看看博士们的日常！第四届慕尼黑学术论坛小结" leftCardDate2="2021-11-10"
                 leftCardImage2={leftCardImage2}
                 rightCardTitle2="2021德国留学论坛成功举办" rightCardDate2="2021-09-23" rightCardImage2={rightCardImage2}/>
-            />
             <Events type="AcademicForum"/>
         </dir>
     );
