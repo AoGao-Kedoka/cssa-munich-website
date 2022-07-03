@@ -5,46 +5,27 @@
 }
 
 #bigCardImg {
-    border-radius: 40px;
+    border-radius: 40px 40px 0 0 !important;
+    max-height: 900px;
 }
 
-:root {
-    --light: 80;
-    /* the threshold at which colors are considered "light." Range: integers from 0 to 100,
-  recommended 50 - 70 */
-    --threshold: 60;
-}
 
 #bigCardTitle {
     letter-spacing: 0;
     text-align: left;
-    width: 900px;
-    font-family: "STHeiti";
     font-style: normal;
-    font-weight: 400;
-    line-height: 45px;
-    /*--switch: calc((var(--light) - var(--threshold)) * -100%);*/
-    /*color: hsl(0, 0%, var(--switch));*/
-    corlor: black;
-    background-blend-mode: difference;
+    font-weight: 600;
     font-size: 35px;
 }
 
 #bigCardText {
-    line-height: 95px;
-    letter-spacing: 0em;
     text-align: left;
-    width: 270px;
-    font-family: "STHeiti";
-    font-style: normal;
-    font-weight: 400;
     font-size: 25px;
-    --switch: calc((var(--light) - var(--threshold)) * -100%);
-    color: hsl(0, 0%, var(--switch));
+    color:gray;
 }
 
 .smallCardImg {
-    border-radius: 40px 40px 0px 0px !important;
+    border-radius: 40px 40px 0 0 !important;
     width: 700px;
     height: 350px;
     max-height: 700px;

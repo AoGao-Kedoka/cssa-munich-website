@@ -14,28 +14,18 @@ const Pinned = (props) => {
                     {/*The following card is the big card displayed on top. */}
                     <Card id="bigCard">
                         <Card.Img id="bigCardImg" variant="top" src={props.bigCardImage}/>
-                        <Card.ImgOverlay>
+                        <Card.Body>
                             <Card.Title
                                 id="bigCardTitle"
-                                style={{
-                                    position: "absolute",
-                                    bottom: 50,
-                                    left: 10,
-                                }}
                             >
                                 {props.bigCardTitle}
                             </Card.Title>
-                            <Card.Text
+                            <Card.Subtitle
                                 id="bigCardText"
-                                style={{
-                                    position: "absolute",
-                                    bottom: 0,
-                                    left: 10,
-                                }}
                             >
                                 {props.bigCardDate}
-                            </Card.Text>
-                        </Card.ImgOverlay>
+                            </Card.Subtitle>
+                        </Card.Body>
                     </Card>
                 </Col>
             </Row>
