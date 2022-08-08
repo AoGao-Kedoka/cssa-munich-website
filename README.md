@@ -1,4 +1,7 @@
 # CSSA Munich New Website 
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Strapi](https://img.shields.io/badge/strapi-%232E7EEA.svg?style=for-the-badge&logo=strapi&logoColor=white)
+
 ![640](https://user-images.githubusercontent.com/58142398/174555769-13abefc8-4bad-4c97-baf5-b1818e07074c.png)
 
 
