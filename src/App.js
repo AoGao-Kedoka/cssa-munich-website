@@ -10,6 +10,7 @@ import StudentServicesPage from "./pages/StudentServices";
 import CSSAPage from "./pages/CSSA";
 import AboutUsPage from "./pages/AboutUs";
 import MainNavigation from './components/layout/MainNavigation';
+import GermanWebsite from './pages/DE/GermanWebsite'
 import Footer from './components/Footer';
 
 // dependencies
@@ -29,6 +30,7 @@ function App() {
             <Route path="student" element={<StudentServicesPage />}></Route>
             <Route path="cssa" element={<CSSAPage />}></Route>
             <Route path="about_us" element={<AboutUsPage />}></Route>
+            <Route path="de" element={<GermanWebsite/>}></Route>
             <Route path=":id" element={<EventDetails/>}></Route>
           </Route>
         </Routes>

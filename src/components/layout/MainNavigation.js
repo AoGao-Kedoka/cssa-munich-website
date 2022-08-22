@@ -1,6 +1,7 @@
+import "./MainNavigation.css"
 import { Link, Outlet } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, Container, Nav} from "react-bootstrap";
+import { Navbar, Container, Nav, Dropdown } from "react-bootstrap";
 
 
 const MainNavigation = () => {
@@ -35,6 +36,18 @@ const MainNavigation = () => {
 							</Nav.Item>
 							<Nav.Item>
 								<Nav.Link as={Link} to="/about_us">关于我们</Nav.Link>
+							</Nav.Item>
+							<Nav.Item>
+								<Dropdown>
+									<Dropdown.Toggle id="nav-dropdown">
+										中文/DE
+									</Dropdown.Toggle>
+
+									<Dropdown.Menu>
+										<Dropdown.Item href="/de">Deutsch</Dropdown.Item>
+										<Dropdown.Item href="/">中文</Dropdown.Item>
+									</Dropdown.Menu>
+								</Dropdown>
 							</Nav.Item>
 						</Nav>
 					</Navbar.Collapse>
