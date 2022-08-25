@@ -10,7 +10,7 @@ import StudentServicesPage from "./pages/StudentServices";
 import CSSAPage from "./pages/CSSA";
 import AboutUsPage from "./pages/AboutUs";
 import MainNavigation from './components/layout/MainNavigation';
-import GermanWebsite from './pages/DE/GermanWebsite'
+import GermanWebsite from './pages/DE/GermanWebsite';
 import Footer from './components/Footer';
 
 // dependencies
