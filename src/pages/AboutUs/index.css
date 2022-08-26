@@ -28,3 +28,34 @@ a {
     font-weight: 500;
     font-size: 13px;
 }
+
+.department-block {
+    display: flex;
+    min-height: 240px;
+    background-color: #f4f5f6;
+    margin: 20px 0px;
+}
+
+.text-block, .vertical-title-block {
+    height: fit-content;
+    margin: auto;
+    direction: ltr;
+}
+
+.vertical-title-block {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 32pt;
+    padding: 20px;
+}
+
+.text-block {
+    font-size: 13pt;
+    padding: 60px 48px;
+}
+
+.footnote-block {
+    font-size: 10pt;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
